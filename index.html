@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text"> Do you wanna go out with me?</h1>
+        </div>
+        <div class="gif_container">
+            <img src="https://media0.giphy.com/media/cLS1cfxvGOPVpf9g3y/giphy.gif?cid=ecf05e47dsnra01pwaq7xw76v9yovcqyzx4x2dc35v56z3r2&ep=v1_stickers_search&rid=giphy.gif&ct=s">
+        </div>
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextpage()">Yes</button>
+            <button class="btn" id="noButton" onclick="nextpage1()">No</button>
+            <script>
+                function nextpage(){
+                    window.location.href="yes.html";
+                }
+
+                function moveButton(){
+                    var x=math.random()* (window.innerwidth=document.getElementById('noBuuton').offsetWidth);
+                    var y=math.random()* (window.innerHeight=document.getElementById('noBuuton').offsetHeight);
+                    document.getElementById('noButton').style.left='${x}px';
+                    document.getElementById('noButton').style.top='${y}px';
+
+                }
+
+                function nextpage1(){
+                    window.location.href="no.html";
+                }
+
+                function moveButton(){
+                    var x=math.random()* (window.innerwidth=document.getElementById('noBuuton').offsetWidth);
+                    var y=math.random()* (window.innerHeight=document.getElementById('noBuuton').offsetHeight);
+                    document.getElementById('noButton').style.left='${x}px';
+                    document.getElementById('noButton').style.top='${y}px';
+
+                }
+
+            </script>
+        </div>
+    </div>
+    
+</body>
+</html>

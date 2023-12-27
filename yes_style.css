@@ -1,0 +1,18 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    background-color: pink;  
+}
+
+.header_text{
+    font-family: 'nunite';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 8px;
+}
+
